@@ -3,7 +3,7 @@ import { propertyTypes } from "../../data.js";
 
 const Categories = () => {
   return (
-    <div className="p-5 flex gap-2 items-center w-screen   fixed ">
+    <div className="mt-[5.1rem] border-t shadow-sm p-5 flex gap-2 items-center w-screen  bg-white fixed ">
       {propertyTypes.map((data) => (
         <section
           key={data?.id}
