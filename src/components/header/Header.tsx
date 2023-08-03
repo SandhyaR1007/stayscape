@@ -2,7 +2,7 @@ import Search from "./Search";
 
 const Header = () => {
   return (
-    <nav className="flex justify-between items-center py-4 px-10 border-b shadow-sm">
+    <nav className="bg-white w-full fixed flex justify-between items-center py-4 px-10 border-b shadow-sm">
       <section className="flex items-center gap-1">
         {" "}
         <img
