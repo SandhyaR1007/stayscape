@@ -1,10 +1,11 @@
 import React from "react";
-import { Categories } from "../components/header";
+import { Categories, PropertyListing } from "../components";
 
 const Home = () => {
   return (
     <div>
       <Categories />
+      <PropertyListing />
     </div>
   );
 };
